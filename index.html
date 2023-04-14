@@ -1,0 +1,187 @@
+﻿<!DOCTYPE HTML><!--June 29-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Product details Card</title>
+
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<link rel="stylesheet" type="text/css" href="css/main-css/style.css">	
+
+	
+<script type="text/javascript" src="js/main-js/jquery-3.6.0.js"></script>
+	
+	
+	
+</head>
+<body>
+	
+	<div class="card-wrapper001">
+	  <div class="card">
+	   <div class="col-sm-12 col-lg-7">	  
+		<div class="product_card-left">
+		  	
+		  <div class="img-display slider-container">
+			<a class="sliderBtn slide-prevBtn">
+			<?xml version="1.0" ?>
+			<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path d="M20,25a1,1,0,0,1-.71-.29l-8-8a1,1,0,0,1,0-1.42l8-8a1,1,0,1,1,1.42,1.42L13.41,16l7.3,7.29a1,1,0,0,1,0,1.42A1,1,0,0,1,20,25Z"/></g><g id="frame"><rect class="cls-1" height="32" width="32"/></g></svg>
+	        </a> <!--12:26pm 21/06/2022 assuming we put the sliderBtns outside the slider container div box , anytime we hover on any of the butons any function that depends on detecting the hover over slider container will be rendered incapable because now you are in the sliderBtn realm which is not enveloped by the slider container div box-->
+		    <div class="img-showcase active" data-id="1" id="color-1">
+			  <img src="imgs/main-imgs/white/4d7b728dec676c2037de54b26a1f27d6large.jpg">
+			  <img src="imgs/main-imgs/white/a6a5cc69f92b05a0acf9d17e47e6f3ealarge.jpg">
+			  <img src="imgs/main-imgs/white/d553169683dc4e1f90012c6d67951c19large.jpg">	
+		    </div>
+		    <div class="img-showcase" data-id="2" id="color-2">
+			  <img src="imgs/main-imgs/pink/628cedaf25a6819243f8b62305e0b2dalarge.jpg">
+			  <img src="imgs/main-imgs/pink/b3358b8c3fd758bb958521e455ca8a72large.jpg">
+			  <img src="imgs/main-imgs/pink/dc1872a184c41ca038dc3395a26145eflarge.jpg">	
+		    </div>	  
+		    <div class="img-showcase" data-id="3" id="color-3">
+			  <img src="imgs/main-imgs/brown/2b2cc19a53e39b2e0939ca0c21160786large.jpg">
+			  <img src="imgs/main-imgs/brown/6a24258c9fb38a2c9c33f319a341cfe4large.jpg">
+			  <img src="imgs/main-imgs/brown/eb2260241db6ef995d231450689aebaclarge.jpg">	
+		    </div>
+			<a class="sliderBtn slide-nextBtn">
+			<?xml version="1.0" ?>
+			<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path d="M12,25a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.42L18.59,16l-7.3-7.29a1,1,0,1,1,1.42-1.42l8,8a1,1,0,0,1,0,1.42l-8,8A1,1,0,0,1,12,25Z"/></g><g id="frame"><rect class="cls-1" height="32" width="32"/></g>
+			</svg>
+	        </a>  
+		  </div>
+		  	
+		  <div class="img-select-wrapper">
+			<div class="wrap">
+		      <ol class="img-select selector-1" data-id="1">
+			    <li class="img-item active">
+			      <a href="#" data-id="1">
+				    <img src="imgs/main-imgs/white/4d7b728dec676c2037de54b26a1f27d6small.jpg"> 
+			      </a>
+			    </li>
+			    <li class="img-item">
+			      <a href="#" data-id="2">
+				    <img src="imgs/main-imgs/white/a6a5cc69f92b05a0acf9d17e47e6f3easmall.jpg"> 
+			      </a>
+			    </li>
+			    <li class="img-item">
+			      <a href="#" data-id="3">
+				    <img src="imgs/main-imgs/white/d553169683dc4e1f90012c6d67951c19small.jpg"> 
+			      </a>
+			    </li>  
+		      </ol>
+		      <ol class="img-select" data-id="2">
+			    <li class="img-item active">
+			  <a href="#" data-id="1">
+				<img src="imgs/main-imgs/pink/628cedaf25a6819243f8b62305e0b2dasmall.jpg"> 
+			  </a>
+			</li>
+			    <li class="img-item">
+			  <a href="#" data-id="2">
+				<img src="imgs/main-imgs/pink/b3358b8c3fd758bb958521e455ca8a72small.jpg"> 
+			  </a>
+			</li>
+			    <li class="img-item">
+			  <a href="#" data-id="3">
+				<img src="imgs/main-imgs/pink/dc1872a184c41ca038dc3395a26145efsmall.jpg"> 
+			  </a>
+			</li>  
+		      </ol>
+		      <ol class="img-select" data-id="3">
+			    <li class="img-item active">
+			  <a href="#" data-id="1">
+				<img src="imgs/main-imgs/brown/2b2cc19a53e39b2e0939ca0c21160786small.jpg"> 
+			  </a>
+			</li>
+			    <li class="img-item">
+			  <a href="#" data-id="2">
+				<img src="imgs/main-imgs/brown/6a24258c9fb38a2c9c33f319a341cfe4small.jpg"> 
+			  </a>
+			</li>
+			    <li class="img-item">
+			  <a href="#" data-id="3">
+				<img src="imgs/main-imgs/brown/eb2260241db6ef995d231450689aebacsmall.jpg"> 
+			  </a>
+			</li>  
+		      </ol>
+		    </div>		
+		  </div>	
+		 </div>
+		</div> 
+	   <div class="col-sm-12 col-lg-5"> 	  
+		<div class="product_card-right">
+		    <h6>LEATHER</h6>
+			<h1>VIATU</h1>
+			<p>Model :1741</p>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			</p>
+			<hr>
+			<div class="color-content">
+			  <h6>COLOR</h6>
+			  <ul class="color-groups">
+				
+				<li class="color-item color-white active-color" data-id="1">
+				  <i class="color" style="background-color:white;"></i>
+				</li>
+				<li class="color-item color-pink" data-id="2">
+				  <i class="color" style="background-color:pink;"></i>
+				</li>
+				<li class="color-item color-brown" data-id="3">
+				  <i class="color" style="background-color:sandybrown;"></i>
+				</li>
+				  
+			  </ul>	
+			</div>
+			<hr>
+			<div class="specs">
+			   <h5>CASE SIZE: <span>42</span></h5>
+			   <h5>MATERIAL: <span>leather</span></h5>
+			</div>
+			<hr>
+			<div class="price">
+			   <h2><span><sup>$</sup></span>1,750</h2>
+			
+			</div>
+		    <div class="cart">
+			   <button class="btn">Add To Cart</button>
+			   <button class="btn">
+				   <i>
+				   <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+                   <title style="vector-effect: non-scaling-stroke;" stroke="null"></title>
+                   <desc style="vector-effect: non-scaling-stroke;" stroke="null"></desc>
+                   <g stroke="null">
+                   <title stroke="null">background</title>
+                   <rect stroke="null" fill="none" id="canvas_background" height="26" width="26" y="-1" x="-1"></rect>
+                   </g>
+                   <g stroke="null">
+                   <title stroke="null">Layer 1</title>
+                   <path fill="currentcolor" stroke="null" id="Shape" d="m17.399135,3.317358c-2.034342,0 -4.068685,0.671553 -5.385024,1.762826c-1.316339,-1.091273 -3.350681,-1.762826 -5.385024,-1.762826c-3.709683,0 -6.581696,2.014658 -6.581696,4.616925c0,3.189876 4.068685,5.792143 10.291379,9.653571l1.675341,1.091273l1.675341,-1.091273c6.103027,-3.945372 10.291379,-6.547639 10.291379,-9.653571c0,-2.602267 -2.872013,-4.616925 -6.581696,-4.616925l0,0zm-5.265356,13.095279l-0.119667,0l-0.119667,-0.083944c-5.744025,-3.609596 -9.453708,-5.960031 -9.453708,-8.39441c0,-1.678882 1.795008,-2.938043 4.188352,-2.938043c1.795008,0 3.590016,0.839441 4.308019,2.014658l2.273677,0c0.598336,-1.175217 2.393344,-2.014658 4.188352,-2.014658c2.393344,0 4.188352,1.259161 4.188352,2.938043c0,2.434379 -3.709683,4.784813 -9.453708,8.478354l0,0z"></path>
+                   </g>
+                  </svg>
+				  </i>
+			   </button>	
+				
+			</div>
+			
+			
+		</div> 
+	   </div>	   
+	  </div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<script type="text/javascript" src="js/main-js/script.js"></script>	
+</body>	
+</html>
